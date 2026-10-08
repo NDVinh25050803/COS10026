@@ -1,0 +1,79 @@
+/*
+filename: lab04.css
+author: [your name]
+created: 08/10/2026
+last modified: 08/10/2026
+description: Stylesheet for lab04.html
+*/
+
+/* Step 3 */
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Element selectors */
+* {
+    font-family: calibri, sans-serif;
+    color: #2F4F4F;
+}
+
+h2 {
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Group selectors */
+aside, footer {
+    font-style: italic;
+}
+
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/* ID selectors */
+#images {
+    text-align: center;
+}
+
+#headings-h3 {
+    color: red;
+}
+
+/* Class selectors */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.month {
+    text-align: right;
+}
+
+/* Contextual selectors */
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+ol ul {
+    list-style-type: square;
+}
+
+/* Pseudo classes */
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
