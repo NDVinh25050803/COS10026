@@ -7,11 +7,10 @@
 */
 
 /* Step 2: override lab04.css hover effect */
-aside:hover { display: block; }
+aside:hover {display: block;}
 
 /* Step 2: inline menu */
-.menu { display: inline-block; }
-nav ul { list-style: none; }
+.menu {display: inline-block;}
 
 /* Step 3 + 4: box model, sizing, floating */
 aside {
@@ -39,27 +38,27 @@ footer {
 }
 
 /* Step 4: two-column sections */
-#lists      { float: left; }
-table       { margin: auto; }
-#tables     { float: right; margin: auto; }
-#hyperlinks { clear: both; float: left; }
-#images     { float: right; }
-figure      { border: 2px solid #ccc; }
+#lists      {float: left;}
+table       {margin: auto;}
+#tables     {float: right; margin: auto;}
+#hyperlinks {clear: left; float: left;}
+#images     {float: right;}
+figure      {border: 2px solid #ccc;}
 
 #lists, #images, #tables, #hyperlinks {
     width: 50%;
     text-align: center;
 }
 
-ol, ul, dl { text-align: left; }
+ol, ul, dl {text-align: left;}
 
-article { min-width: 30em; }
+article {min-width: 30em;}
 
 /* Step 5: footer paragraphs */
 footer p {
     display: inline-block;
     width: 33%;
 }
-footer p:first-child  { float: left; }
-footer p:nth-child(2) { text-align: center; }
-footer p:last-child   { float: right; text-align: right; }
+footer p:first-child  {float: left;}
+footer p:nth-child(2) {text-align: center;}
+footer p:last-child   {float: right; text-align: right;}
